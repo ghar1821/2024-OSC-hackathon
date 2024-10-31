@@ -10,7 +10,7 @@
 # SITE SETTINGS
 #
 # title appears in the header
-title: 2023-ASI-OzSingleCell-Hackathon
+title: 2024 Oz Single Cell Hackathon
 # title-icon appears in the header to give some pizazz (leave blank for none)
 # choose from Bootstrap Icons in _includes/bootstrap-icons
 # find names on https://icons.getbootstrap.com/
@@ -18,22 +18,22 @@ title: 2023-ASI-OzSingleCell-Hackathon
 title-icon:
 # description, keywords, and image for meta tags
 # these do not visibility appear on the pages, but used for SEO
-description: "2023-ASI-OzSingleCell-Hackathon"
+description: "2024 Oz Single Cell Hackathon"
 keywords: "hackathon, websites"
 # featured-image is added to metadata tags for social media sharing
 # use a relative path to image in this repository or full URL
-featured-image: "/images/ASIhackathonflyer_030723.png"
+featured-image: "/images/hackathon_ad.jpeg"
 # add search box to footer? true/false
 search: true
 
 # author settings for cc-by, appears in the footer and credits
-author:
+author: Givanna Putri
 # your github username for link [optional]
-github_username:
+github_username: ghar1821
 # year or date published
-pub_year: 2023
+pub_year: 2024
 # location of code, the full url to your github repository
-source-code: https://github.com/2023-asi-ozsinglecell-hackathon/system-immunology-hackathon
+source-code: https://github.com/ghar1821/2024-OSC-hackathon
 
 ##########
 # URL VARIABLES [optional!!]
