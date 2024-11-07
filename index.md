@@ -5,7 +5,7 @@ layout: page
 
 # 2024 Oz Single Cell Hackathon
 
-{% include figure.html img="hackathon_ad.jpeg" alt="Hackathon Flyer" width="75%" %}
+{% include figure.html img="hackathon_ad.jpeg" alt="Hackathon Flyer" width="100%" %}
 
 Welcome to the 2024 edition of Oz Single Cell Hackathon!
 
