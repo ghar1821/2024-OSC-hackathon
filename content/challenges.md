@@ -12,4 +12,10 @@ To help you get the creative juices flowing, we've come up with a few challenges
 4. Construct tools to identify genes that characterise pseudotime
 
 
+Establish a method to determine which pseudotime method works best for a given dataset.
+Benchmark pseudotime methods
+
+How to extract biological meaning from pseudotime estimations.
+
+
 If you have a great idea outside of these challenges, that's great too - just make sure you find some hacking friends that want to help you solve it.
