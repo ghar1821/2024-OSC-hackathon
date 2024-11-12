@@ -9,7 +9,7 @@ Here's a [link for the location of the building on google maps](https://maps.app
 
 This is the entrance to the building:
 
-<!-- {% include figure.html img="TKCC_entrance.png" %} -->
+{% include figure.html img="TKCC_entrance.png" alt="TKCC_entrance" width="100%" %}
 
 
-Access to other levels of the building requires key card access so we will have people in the lobby to escort you to the hackathon.
+Access to other levels of the building requires key card access so we will have people in the lobby with a clear sign to escort you to the hackathon.
