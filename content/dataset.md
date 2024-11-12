@@ -14,7 +14,7 @@ The dataset that will be used for this hackathon is a stem cell differentiation 
 
 This data contains three stem cells lines (FSA0024I1, IST2607K3, WAB0137L8) that were cultured using a village platform meaning that all lines were cultured in the same dish and demultiplexed following sequencing by matching the genetic information in the sequencing reads to genotype data for each cell line. Each line is well represented across the days of differentiation:
 
-{% include figure.html img="2024_hackathon_cell_line_time.png" alt="Experimental Design" width=100%" %}
+{% include figure.html img="2024_hackathon_cell_line_time.png" alt="Experimental Design" width="100%" %}
 
 
 # Accessing the Dataset
