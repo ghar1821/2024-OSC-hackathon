@@ -14,11 +14,11 @@ The dataset that will be used for this hackathon is a stem cell differentiation 
 
 This data contains three stem cells lines (FSA0024I1, IST2607K3, WAB0137L8) that were cultured using a village platform meaning that all lines were cultured in the same dish and demultiplexed following sequencing by matching the genetic information in the sequencing reads to genotype data for each cell line. Each line is well represented across the days of differentiation:
 
-{% include figure.html img="2024_hackathon_cell_line_time.png" alt="Experimental Design" width=1005%" %}
+{% include figure.html img="2024_hackathon_cell_line_time.png" alt="Experimental Design" width=100%" %}
 
 
 # Accessing the Dataset
-The provided data has  been demultiplexed with doublets removed. The cell line labels for each cell is provided in the cell metadata sections of the provided objects and the ``2024_hackathon_cell_metadata.tsv`` file. All data can be found in [this directory](https://www.dropbox.com/scl/fo/8659cnxbw6z5e3vmqshoc/ABvKcjHLiAzMwQ0c6LY9t3E?rlkey=5alw8fzrqqqypyy4cw5qsxqs0&dl=0). Links to individual data structure files so you can use download bash commands if desired:
+The provided data has been demultiplexed with doublets removed resulting in 19,663 cells. The cell line labels for each cell is provided in the cell metadata sections of the provided objects and the ``2024_hackathon_cell_metadata.tsv`` file. All data can be found in [this directory](https://www.dropbox.com/scl/fo/8659cnxbw6z5e3vmqshoc/ABvKcjHLiAzMwQ0c6LY9t3E?rlkey=5alw8fzrqqqypyy4cw5qsxqs0&dl=0). Links to individual data structure files so you can use download bash commands if desired:
 
 - **Seurat rds**: https://www.dropbox.com/scl/fi/jqv722tutvjv0xpfkpm7e/2024_hackathon_seuratv5.rds?rlkey=dwws89q7x1bpmrsvin66gxdxn
 - **SCE rds**: https://www.dropbox.com/scl/fi/eqln2mgc2m3vmns4o4alz/2024_hackathon_sce.rds?rlkey=zjj7mjlvr68kntj7a0yh4qazf
