@@ -39,3 +39,10 @@ Here we list some papers that can provide context for addressing the proposed ch
 **Trajectory-based differential expression analysis for single-cell sequencing data**
 [https://www.nature.com/articles/s41467-020-14766-3](https://www.nature.com/articles/s41467-020-14766-3)
 - A method for differential expression analysis across pseudotimes
+
+
+# Cardiomyocyte Differentiations
+
+**Review of iPSC-derived cardiomyocytes**
+[https://www.sciencedirect.com/science/article/pii/S2666166722004403?via%3Dihub](https://www.sciencedirect.com/science/article/pii/S2666166722004403?via%3Dihub)
+- Provides a review of the field of iPSC-derived cardiomyocytes to provide biological theory, context and 
