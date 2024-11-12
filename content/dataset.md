@@ -26,7 +26,7 @@ This dataset only has a few different metadata fields. This icludes:
 - **Day**: The collection day each cell was collected and fixed
 
 | orig.ident |     nCount_RNA |      nFeature_RNA |   Barcode | CellLine |       Day |
-|--|--|--|--|--|--|
+| -- | -- | -- | -- | -- | -- |
 | SeuratProject |  6642.99981199999 |        3462 |   AAACCATAGGCAGGTCCGTAGGTCAGCTT |   WAB0137L8 |      Day-1 |
 | SeuratProject |  17163.0002339001 |        6789 |   AAACCATAGGCAGGTCCGTTAAGTCCTGA |   WAB0137L8 |      Day-1 |
 | SeuratProject |  11131.0002034 |   5248 |   AAACCATAGGCAGGTCCGTTCCGGCTTAT |   FSA0024I1 |      Day-1 |
