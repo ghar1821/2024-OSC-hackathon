@@ -17,6 +17,27 @@ This data contains three stem cells lines (FSA0024I1, IST2607K3, WAB0137L8) that
 {% include figure.html img="2024_hackathon_cell_line_time.png" alt="Experimental Design" width="100%" %}
 
 
+## Details about the data metadata
+This dataset only has a few different metadata fields. This icludes:
+- **nCount_RNA**: Number of UMIs identified per cell
+- **nFeature_RNA**: Number of unique features (genes) expressed per cell
+- **Barcode**: Cell  barcode
+- **CellLine**: The cell line that cell is from (FSA0024I1, IST2607K3 or WAB0137L8)
+- **Day**: The collection day each cell was collected and fixed
+
+| orig.ident |     nCount_RNA |      nFeature_RNA |   Barcode | CellLine |       Day |
+|--|--|--|--|--|--|
+| SeuratProject |  6642.99981199999 |        3462 |   AAACCATAGGCAGGTCCGTAGGTCAGCTT |   WAB0137L8 |      Day-1 |
+| SeuratProject |  17163.0002339001 |        6789 |   AAACCATAGGCAGGTCCGTTAAGTCCTGA |   WAB0137L8 |      Day-1 |
+| SeuratProject |  11131.0002034 |   5248 |   AAACCATAGGCAGGTCCGTTCCGGCTTAT |   FSA0024I1 |      Day-1 |
+| SeuratProject |  18820.0002576 |   6886 |   AAACCATAGTCAACGTAAGAGCCGTAGTT |   FSA0024I1 |      Day-1 |
+| SeuratProject |  15492.0002927 |   6469 |   AAACTCCAAACGCGAGATTGTAGCAGCTA |   WAB0137L8 |      Day-1 |
+| SeuratProject |  15993.0000964 |   6711 |   AAACTCCAAGCAGGTCCGTCCGCTAAGAG |   WAB0137L8 |      Day-1 |
+| SeuratProject |  20849.0000901 |   7491 |   AAATCGTTCGCAGGTCCGTACGGCGTTAA |   WAB0137L8 |      Day-1 |
+| SeuratProject |  41359.9987672 |   9909 |   AAATTCCTCACGCGAGATTGTAGGCTGCA |   WAB0137L8 |      Day-1 |
+| SeuratProject |  23723.999869 |    8025 |   AAATTCCTCGCAGGTCCGTTATTGCTGGA |   WAB0137L8 |      Day-1 |
+
+
 # Accessing the Dataset
 The provided data has been demultiplexed with doublets removed resulting in 19,663 cells. The cell line labels for each cell is provided in the cell metadata sections of the provided objects and the ``2024_hackathon_cell_metadata.tsv`` file. All data can be found in [this directory](https://www.dropbox.com/scl/fo/8659cnxbw6z5e3vmqshoc/ABvKcjHLiAzMwQ0c6LY9t3E?rlkey=5alw8fzrqqqypyy4cw5qsxqs0&dl=0). Links to individual data structure files so you can use download bash commands if desired:
 
