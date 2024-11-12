@@ -3,5 +3,8 @@ title: Hackathon Program
 nav: Program
 ---
 
-<!-- {% include figure.html img="program.png" alt="Hackathon Program" width="75%" %} -->
+This is the expected schedule for the hackathon. This is subject to change but should give you a general idea of the structure:
+
+{% include figure.html img="Schedule.jpg" alt="Schedule" width="100%" %}
+
 
