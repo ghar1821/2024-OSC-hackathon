@@ -14,6 +14,16 @@ Here we list some papers that can provide context for addressing the proposed ch
 
 
 # Pseudotime Trajectory Analysis
+**Benchmark of Pseudotime Trajectory Analyses**
+[https://www.nature.com/articles/s41587-019-0071-9](https://www.nature.com/articles/s41587-019-0071-9)
+- Benchmarked 45 methods with many datasets
+
+
+**Review of Pseudotime Trajectory Analyses**
+[https://www.sciencedirect.com/science/article/pii/S2452310021000299](https://www.sciencedirect.com/science/article/pii/S2452310021000299)
+- Review of trajectory analyses
+
+
 **11 Grand Challenges in single-cell science** 
 [https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-1926-6](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-1926-6)
 - Slightly an old paper but the concepts hold true.
