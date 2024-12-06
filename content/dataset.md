@@ -6,7 +6,7 @@ nav: Dataset
 <!-- {% include figure.html img="data_sponsor.png" %} -->
 
 # Background on the Dataset
-The dataset that will be used for this hackathon is a stem cell differentiation to cardiomyocytes with samples collected every day during the differentiation starting at the day cells were plated (Day -2) and ending with cardiomyocytes (Day 14). Day 0 indicates the start of the differentiation. Samples were fixed on the day of collection and then processed together with combinatorial indexing using Scale Biosciences technology.
+The dataset that will be used for this hackathon is a stem cell differentiation to cardiomyocytes with samples collected every day during the differentiation starting at the day cells were plated (Day -2) and ending with cardiomyocytes (Day 14). Day 0 indicates the start of the differentiation. The cells were differentiated using the [StemCell Technologies Ventricular Cardiomyocyte Differentiation kit](https://www.stemcell.com/products/stemdiff-cardiomyocyte-kit.html). Samples were fixed on the day of collection and then processed together with combinatorial indexing using Scale Biosciences technology.
 
 
 {% include figure.html img="Experimental_Design.png" alt="Experimental Design" width="100%" %}
@@ -26,17 +26,17 @@ This dataset only has a few different metadata fields. This icludes:
 - **Day**: The collection day each cell was collected and fixed
 - **Sex**: The sex of the donor that the iPSC line was generated from
 
-| orig.ident |     nCount_RNA |      nFeature_RNA |   Barcode | CellLine |       Day |
-| --- | --- | --- | --- | --- | --- |
-| SeuratProject |  6642.99981199999 |        3462 |   AAACCATAGGCAGGTCCGTAGGTCAGCTT |   WAB0137L8 |      Day-1 |
-| SeuratProject |  17163.0002339001 |        6789 |   AAACCATAGGCAGGTCCGTTAAGTCCTGA |   WAB0137L8 |      Day-1 |
-| SeuratProject |  11131.0002034 |   5248 |   AAACCATAGGCAGGTCCGTTCCGGCTTAT |   FSA0024I1 |      Day-1 |
-| SeuratProject |  18820.0002576 |   6886 |   AAACCATAGTCAACGTAAGAGCCGTAGTT |   FSA0024I1 |      Day-1 |
-| SeuratProject |  15492.0002927 |   6469 |   AAACTCCAAACGCGAGATTGTAGCAGCTA |   WAB0137L8 |      Day-1 |
-| SeuratProject |  15993.0000964 |   6711 |   AAACTCCAAGCAGGTCCGTCCGCTAAGAG |   WAB0137L8 |      Day-1 |
-| SeuratProject |  20849.0000901 |   7491 |   AAATCGTTCGCAGGTCCGTACGGCGTTAA |   WAB0137L8 |      Day-1 |
-| SeuratProject |  41359.9987672 |   9909 |   AAATTCCTCACGCGAGATTGTAGGCTGCA |   WAB0137L8 |      Day-1 |
-| SeuratProject |  23723.999869 |    8025 |   AAATTCCTCGCAGGTCCGTTATTGCTGGA |   WAB0137L8 |      Day-1 |
+| orig.ident |     nCount_RNA |      nFeature_RNA |   Barcode | CellLine |       Day | Sex |
+| --- | --- | --- | --- | --- | --- | --- |
+| SeuratProject |  6642.99981199999 |        3462 |   AAACCATAGGCAGGTCCGTAGGTCAGCTT |   WAB0137L8 |      Day-1 | Female |
+| SeuratProject |  17163.0002339001 |        6789 |   AAACCATAGGCAGGTCCGTTAAGTCCTGA |   WAB0137L8 |      Day-1 | Female |
+| SeuratProject |  11131.0002034 |   5248 |   AAACCATAGGCAGGTCCGTTCCGGCTTAT |   FSA0024I1 |      Day-1 | Female |
+| SeuratProject |  18820.0002576 |   6886 |   AAACCATAGTCAACGTAAGAGCCGTAGTT |   FSA0024I1 |      Day-1 | Female |
+| SeuratProject |  15492.0002927 |   6469 |   AAACTCCAAACGCGAGATTGTAGCAGCTA |   WAB0137L8 |      Day-1 | Female |
+| SeuratProject |  15993.0000964 |   6711 |   AAACTCCAAGCAGGTCCGTCCGCTAAGAG |   WAB0137L8 |      Day-1 | Female |
+| SeuratProject |  20849.0000901 |   7491 |   AAATCGTTCGCAGGTCCGTACGGCGTTAA |   WAB0137L8 |      Day-1 | Female |
+| SeuratProject |  41359.9987672 |   9909 |   AAATTCCTCACGCGAGATTGTAGGCTGCA |   WAB0137L8 |      Day-1 | Female |
+| SeuratProject |  23723.999869 |    8025 |   AAATTCCTCGCAGGTCCGTTATTGCTGGA |   WAB0137L8 |      Day-1 | Female |
 
 
 # Accessing the Dataset
